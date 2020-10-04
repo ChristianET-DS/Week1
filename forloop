@@ -1,0 +1,30 @@
+# Use range() to loop through a list of numbers
+for i in range(4):
+    print(i)
+print()
+
+for i in range(10, 15):
+    print(i)
+print()
+
+for i in range(30, 20, -2):
+    print(i)
+print()
+
+
+primes = [1, 2, 3, 5, 7, 11, 13]
+# Can loop over lists
+for number in primes:
+    print(number)
+
+# printinh using length
+print('print with lenght')
+for i in range(0, len(primes)):
+    print(primes[i])
+
+
+
+#enumerate return the index and the value of the list
+# If you need to know the index, use enumerate()
+for i, number in enumerate(primes):
+    print(f'{i}: {number}')
